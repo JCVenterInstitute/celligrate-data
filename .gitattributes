@@ -1,7 +1,5 @@
 *.psd filter=lfs diff=lfs merge=lfs -text
-
 # Basic .gitattributes for a R repo.
-
 # Source files
 # ============
 *.Rdata binary
@@ -15,3 +13,4 @@
 *.R  	  text
 *.Rproj text
 *.[Rr]md   linguist-detectable
+*.csv filter=lfs diff=lfs merge=lfs -text
